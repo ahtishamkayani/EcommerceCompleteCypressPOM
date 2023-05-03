@@ -19,6 +19,8 @@
 // // Alternatively you can use CommonJS syntax:
 // // require('./commands')
 
+import './commands'
+import "cypress-mailslurp";
 beforeEach(function(){
-    cy.visit('http://automationpractice.com/index.php')   
+    cy.visit('https://automationexercise.com')   
 })

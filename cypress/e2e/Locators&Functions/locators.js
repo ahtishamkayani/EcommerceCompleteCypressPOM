@@ -138,4 +138,3 @@ export class locatorClass {
         cy.get(this.confrimOrder).click()
     }
 }
-e
